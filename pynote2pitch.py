@@ -48,5 +48,8 @@ def write_to_pitchme(note_path):
 
 if __name__ == '__main__':
     path = sys.argv[1]
-    before_write_to_pitchme(path)
+    if len(path) < 1:
+        raise Exception("Your Input python Notes is not correct!!! "
+                        "Usage is python pynote2pitch.py <your_file_path>")
+    before_write_to_pitchme()
     write_to_pitchme(path)
