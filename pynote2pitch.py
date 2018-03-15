@@ -1,9 +1,6 @@
 # -*- coding:utf-8 -*-
-
-# -*- coding:utf-8 -*-
 import json
 import subprocess
-
 import sys
 
 
@@ -17,7 +14,10 @@ SLIDE_SEPERATOR = "---"
 
 
 def before_write_to_pitchme():
-    subprocess.run(["mv", "PITCHME.md", "PITCHME_BNK.md"])
+    try:
+        subprocess.run(["mv", "PITCHME.md", "PITCHME_BNK.md"])
+    except:
+        pass
     subprocess.run(["touch", "PITCHME.md"])
 
 
