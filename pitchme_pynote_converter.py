@@ -31,10 +31,12 @@ def write_to_pitchme():
                     pitchme.write(SLIDE_SEPERATOR + "\n")
                     pitchme.write("\n")
                 pitchme.writelines(md)
+                pitchme.write("\n")
             if note_cell['cell_type'] == 'code':
                 if len(note_cell["source"]) >= 1:
                     pitchme.write("\n")
-                    pitchme.write("```python\n")
+                    pitchme.write("```python")
+                    pitchme.write("\n")
                     pitchme.writelines(note_cell["source"])
                     pitchme.write("\n")
                     pitchme.write("```\n")

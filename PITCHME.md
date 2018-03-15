@@ -9,6 +9,7 @@
 - boolean: True or False
 - dict/list/set
 - ......
+
 ```python
 print(type(123))
 print(type(12.0))
@@ -28,6 +29,7 @@ print(type(set([])))
 ## Python variable
 
 定义变量：
+
 ```python
 x=10
 print(x)
@@ -41,6 +43,7 @@ print(type(x)) ## x 类型不固定
 
 - 计算机内存保存Unicode，保存到硬盘为utf-8/或者输出至网页也是utf-8
 - ascii 1个字节/unicode 2 个字节/可变长unicode
+
 ```python
 print("中文")
 print("chinese")
@@ -80,6 +83,7 @@ print(len(('abc中文').encode('utf-8')))
 ```
 
 ## Python字符串Format
+
 ```python
 print('%.2f' % 3.1415926)
 s1="this is "
@@ -100,6 +104,7 @@ print("{s1}={s2}".format(s1="t1",s2="t2"))
 - list 的访问: 下标(index)访问/append 添加/pop()
 - list的属性
 - list 切片(slice)
+
 ```python
 fruit_list = ['apple','banana','orange']
 print(len(fruit_list))
@@ -135,6 +140,7 @@ print(matrix_2)
 - tuple 定义
 - tuple 操作，类似list
 - tuple 不能append
+
 ```python
 t1=(2,34)
 print(t1[0])
@@ -156,6 +162,7 @@ print(t1)
 - while
 - break
 - continue
+
 ```python
 n=0
 while n<10:
@@ -180,6 +187,7 @@ for i in range(1,10):
 - 键值对 key/value pair
 - dict 访问/扩展
 - key 是不可变对象(list/set/dict不能作为key)
+
 ```python
 dict_demo = {"k1":"v1","k2":"v2"}
 print(dict_demo)
@@ -207,6 +215,7 @@ print(dict_demo)
 - set 不可重复
 - set 值是不可变
 - 其他操作类似约list
+
 ```python
 set_demo = set([1,2,3,9])
 set_demo.add(4)
