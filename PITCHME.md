@@ -1,5 +1,3 @@
----
-
 ## Python Data Type
 
 - int 整数
