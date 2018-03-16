@@ -76,8 +76,42 @@ Learning Python Notes
 - Dramatiq
 - Mkdocs
 - WebSockets/uvloop/WebRTC
+- SQLAlchemy
+- Peewee
+- Redis/Neo4j/Mongo/Cassandra
+
+### Data Science
+
+- pandas
+- numpy
+- bokeh
+- d3.js
+- matplotlib
+- NLTK
+- TextBlob
+- spaCy
+- scikit-learn
+- pattern
+- chainer
 
 
+### Web Scraping
+
+- scrapy
+- bs4
+
+
+### Search 
+- ELK
+- Solr
+
+
+### Devops
+- Graphite
+- Prometheus
+- Service Canary
+- Roolbar
+- Sentry/New Relic/Datadog
 ### CI/CD
 
 - CircleCI
