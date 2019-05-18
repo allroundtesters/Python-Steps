@@ -1,3 +1,9 @@
 [submodule "Go-Steps"]
 	path = Go-Steps
 	url = git@github.com:allroundtesters/Go-Steps.git
+[submodule "scala-steps"]
+	path = scala-steps
+	url = git@github.com:allroundtesters/scala-steps.git
+[submodule "Shell-Steps"]
+	path = Shell-Steps
+	url = git@github.com:allroundtesters/Shell-Steps.git
